@@ -11,7 +11,7 @@ const Footer = () => {
             <a href="#"><FaInstagram className='font-4xl'/></a>
         </div>
 
-        <p className='text-gray-400'>@2024 Santiago M.</p>
+        <p className='text-gray-400'>@2024 Fabian L.</p>
 
       </div>
 

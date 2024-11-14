@@ -36,15 +36,15 @@ const Hero = () => {
         >
           <TypeAnimation
             sequence={[
-              'Fullstack dev',
+              'Tencico en Sistemas',
               1000,
-              'Dev teacher',
+              'Reparacion de pc',
               1000,
-              'Backend developer.',
+              'Instalacion de redes.',
               1000,
-              'Team leader.',
+              'Instalacion de Camaras.',
               1000,
-              'Project manager',
+              'Instalacion de software',
               1000,
             ]}
             speed={50}
@@ -58,8 +58,8 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className='text-gray-200 md:text-7xl text-5xl tracking-tight mb-4'
           >
-            HEY, I AM <br />
-            <span className='text-purple-500'>SANTIAGO MESA</span>
+            HOLA, YO SOY <br />
+            <span className='text-purple-500'>FABIAN LOPEZ</span>
           </motion.p>
 
           <motion.p
@@ -69,7 +69,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6'
           >
-            I'm a passionate developer with over 3 years of experience
+            Tengo 10 años de experiencia en:
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
