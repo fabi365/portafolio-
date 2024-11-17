@@ -20,40 +20,41 @@ import {
   DiSqllite,
   DiBootstrap,
 } from 'react-icons/di'
+import { CgSoftwareDownload } from "react-icons/cg";
+import { FaGears } from "react-icons/fa6";
+
 import { RiTailwindCssFill } from "react-icons/ri";
 import Reveal from './Reveal'
 
 
 const skills = [
   {
-    category: 'Frontend',
+    category: 'Software',
     technologies: [
-      {name: 'Html', icon: <DiHtml5 className='text-orange-600 mx-2'/>},
-      {name: 'Css', icon: <DiCss3 className='text-blue-500 mx-2'/>},
-      {name: 'Javascript', icon: <DiJavascript1 className='text-yellow-400 mx-2'/>},
-      {name: 'Tailwind', icon: <RiTailwindCssFill className='text-blue-500 mx-2'/>},
-      {name: 'Bootstrap', icon: <DiBootstrap className='text-purple-500 mx-2'/>},
-      {name: 'React', icon: <DiReact className='text-blue-500' />},
-      {name: 'Illustrator', icon: <DiIllustrator className='text-yellow-700 mx-2'/>},
-      {name: 'Photoshop', icon: <DiPhotoshop className='text-blue-600 mx-2'/>},
+      {name: 'Instalación Win10/11', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Instalación Linux', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Formateo', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Instalación Office', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Instalación Photoshop', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Instalación Camaras,S', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Mto,Preventivo', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Mto,Corectivo', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Instalación Redes', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
+      {name: 'Ins,Antivirus', icon: <CgSoftwareDownload className='text-blue-600 mx-2'/>},
       
     ]
   },
   {
-    category: 'Fullstack',
+    category: 'Hardware',
     technologies: [
-      {name: 'Ruby', icon: <DiRubyRough className='text-red-500 mx-2'/>},
-      {name: 'Rails', icon: <DiRor className='text-red-600 mx-2'/>},
-      {name: 'Python', icon:<DiPython className='text-yellow-400 mx-2'/>},
-      {name: 'Django', icon: <DiDjango className='text-green-600 mx-2'/>},
-      {name: 'Php', icon: <DiPhp className='text-purple-500 mx-2'/>},
-      {name: 'Laravel', icon: <DiLaravel className='text-red-600 mx-2'/>},
-      {name: 'Sqlite', icon: <DiSqllite className='text-blue-900 mx-2'/>},
-      {name: 'Postgresql', icon: <DiPostgresql className='text-purple-400 mx-2'/>},
-      {name: 'MongoDb', icon: <DiMongodb className='text-green-800 mx-2'/>},
-      {name: 'Android', icon: <DiAndroid className='text-lime-500 mx-2'/>},
-      {name: 'Wordpress', icon: <DiWordpress className='text-blue-400 mx-2'/>},
-      {name: 'Github', icon: <DiGithubBadge className='text-gray-200 mx-2'/>},
+        {name: ' Cambio Pasta termica', icon: <FaGears className='text-gray-200 mx-2'/>},
+        {name: 'Mantenimiento Preventivo', icon: <FaGears className='text-gray-200 mx-2'/>},
+        {name: 'Mantenimiento Corectivo', icon: <FaGears className='text-gray-200 mx-2'/>},
+        {name: 'Limpieza Interna', icon: <FaGears className='text-gray-200 mx-2'/>},
+        {name: 'Lubricacion de Cooler', icon: <FaGears className='text-gray-200 mx-2'/>},
+        {name: 'Reparación de Carcasas', icon: <FaGears className='text-gray-200 mx-2'/>},
+        {name: 'Micro Soldadura', icon: <FaGears className='text-gray-200 mx-2'/>},
+        {name: 'Mantenimiento de Impresora', icon: <FaGears className='text-gray-200 mx-2'/>},
     ]
   }
 ]
@@ -61,11 +62,11 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className='max-w-[650px] mx-auto flex felx-col justify-center px-4 text-gray-200 pb-8 md:py-12' id="skills">
+    <div className='max-w-[900px] mx-auto flex felx-col justify-center px-4 text-gray-200 pb-8 md:py-12' id="skills">
       <Reveal>
-        <h2 className='text-3xl font-bold mb-4 text-center'>Skills</h2>
+        <h2 className='text-3xl font-bold mb-4 text-center'>Servicios </h2>
         <p className='text-center mb-8'>
-          I worked on various frontend and fullstack projects, check them <a href="#" className='underline'>Here</a>
+        Los servicios realizados según su necesidad  <a href="#" className='underline'>Contactanos</a>
         </p>
 
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8

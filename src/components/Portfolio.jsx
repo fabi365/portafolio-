@@ -12,7 +12,7 @@ const projects = [
     {
       img: project1,
       title: "Project #1",
-      description: "UI for frontend development using React.",
+      description: "El mantenimiento de un pc debe ser periódicamente ya que la acumulación de polvo y partículas externas pueden generar cortos y daños irremediables a las máquinas. .",
       links: {
         site: "#",
         github: "#",
@@ -21,7 +21,7 @@ const projects = [
     {
       img: project2,
       title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      description: "Del manteniendo de su software depende la funcionalidad de las aplicaciones y el rendimiento de su máquina, por esa razón el mantenimiento debe ser periódico, limpiar la basura acumulativa de archivos innecesarios.   ",
       links: {
         site: "#",
         github: "#",

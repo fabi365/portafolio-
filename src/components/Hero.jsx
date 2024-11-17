@@ -92,7 +92,8 @@ const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href='https://wa.me/573193024139'
-                target='_blank'><FaWhatsappSquare /></motion.a>
+                target='_blank'
+><FaWhatsappSquare /></motion.a>
             </div>
           </motion.div>
         </motion.div>
