@@ -36,15 +36,15 @@ const Hero = () => {
         >
           <TypeAnimation
             sequence={[
-              'Tencico en Sistemas',
+              'Técnico en Sistemas',
               1000,
-              'Reparacion de pc',
+              'Reparación de pc',
               1000,
-              'Instalacion de redes.',
+              'Instalación de Redes.',
               1000,
-              'Instalacion de Camaras.',
+              'Instalación de Cámaras.',
               1000,
-              'Instalacion de software',
+              'Instalación de software',
               1000,
             ]}
             speed={50}
@@ -69,7 +69,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6'
           >
-            Tengo 10 años de experiencia en:
+            Tengo 10 años de experiencia en: Descarga las Recomendaciones
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -91,7 +91,7 @@ const Hero = () => {
                 rel='noopener noreferrer'
                 download
               >
-                Download CV
+                Download 
               </a>
             </motion.button>
 
@@ -122,7 +122,7 @@ const Hero = () => {
 
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href='https://wa.me/573196794582'
+                href='https://wa.me/573193024139'
                 target='_blank'
               >
                 <FaWhatsappSquare />
