@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  FaWindows,
   DiHtml5,
   DiCss3,
   DiJavascript1,
@@ -37,7 +36,7 @@ const skills = [
       {name: 'React', icon: <DiReact className='text-blue-500' />},
       {name: 'Illustrator', icon: <DiIllustrator className='text-yellow-700 mx-2'/>},
       {name: 'Photoshop', icon: <DiPhotoshop className='text-blue-600 mx-2'/>},
-      {name: 'WIN10', icon: <FaWindows className='text-blue-400 mx-2'/>},
+      
     ]
   },
   {

@@ -6,23 +6,15 @@ import {
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineLinkedin,
+  
 } from 'react-icons/ai';
-import {
-  DiHtml5,
-  DiCss3,
-  DiJavascript1,
-  DiRubyRough,
-  DiRor,
-  DiPython,
-  DiDjango,
-  DiPhp,
-  DiLaravel,
-  DiIllustrator,
-  DiPhotoshop,
-  DiReact,
-} from 'react-icons/di';
+import { DiIllustrator,DiPhotoshop,DiLinux} from 'react-icons/di';
 import { motion } from 'framer-motion';
 import { FaWhatsappSquare } from 'react-icons/fa';
+import { TfiMicrosoft } from "react-icons/tfi";
+import { PiMicrosoftExcelLogoThin,PiMicrosoftWordLogoLight, PiMicrosoftTeamsLogoBold } from "react-icons/pi";
+import { BiLogoAdobe } from "react-icons/bi";
+
 
 const Hero = () => {
   return (
@@ -69,7 +61,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className='text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6'
           >
-            Tengo 10 años de experiencia en: Descarga las Recomendaciones
+            Tengo 10 años de experiencia: Descarga las Recomendaciones
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -96,37 +88,11 @@ const Hero = () => {
             </motion.button>
 
             <div className='flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20'>
-              <motion.a
-                whileHover={{ scale: 1.2 }}
-                href='https://github.com/altair3542'
-                target='_blank'
-              >
-                <AiOutlineGithub />
-              </motion.a>
-
-              <motion.a
-                whileHover={{ scale: 1.2 }}
-                href='https://www.linkedin.com/in/smserna/'
-                target='_blank'
-              >
-                <AiOutlineLinkedin />
-              </motion.a>
-
-              <motion.a
-                whileHover={{ scale: 1.2 }}
-                href='https://www.instagram.com/thiago_mesa/'
-                target='_blank'
-              >
-                <AiOutlineInstagram />
-              </motion.a>
-
+                                     
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href='https://wa.me/573193024139'
-                target='_blank'
-              >
-                <FaWhatsappSquare />
-              </motion.a>
+                target='_blank'><FaWhatsappSquare /></motion.a>
             </div>
           </motion.div>
         </motion.div>
@@ -148,17 +114,14 @@ const Hero = () => {
         transition={{ duration: 1, delay: 2 }}
         className='flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24'
       >
-        <p className='text-gray-200 mr-6'>My tech stack</p>
-        <DiRubyRough className='text-red-500 mx-2' />
-        <DiRor className='text-red-600 mx-2' />
-        <DiHtml5 className='text-orange-600 mx-2' />
-        <DiCss3 className='text-blue-500 mx-2' />
-        <DiJavascript1 className='text-yellow-400 mx-2' />
-        <DiPython className='text-yellow-400 mx-2' />
-        <DiDjango className='text-green-600 mx-2' />
-        <DiPhp className='text-purple-500 mx-2' />
-        <DiLaravel className='text-red-600 mx-2' />
-        <DiReact className='text-blue-500 mx-2' />
+        <p className='text-gray-200 mr-6'>PROGRAMAS</p>
+        <TfiMicrosoft  className='text-red-500 mx-2' /> 
+        <DiLinux  className='text-yellow-500 mx-2' /> 
+        
+        <PiMicrosoftExcelLogoThin   className='text-blue-500 mx-2' /> 
+        <PiMicrosoftWordLogoLight   className='text-blue-500 mx-2' /> 
+        < PiMicrosoftTeamsLogoBold   className='text-blue-500 mx-2' /> 
+        < BiLogoAdobe   className='text-blue-500 mx-2' /> 
         <DiIllustrator className='text-yellow-700 mx-2' />
         <DiPhotoshop className='text-blue-600 mx-2' />
       </motion.div>
