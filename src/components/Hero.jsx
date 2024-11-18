@@ -78,7 +78,7 @@ const Hero = () => {
               className='z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl'
             >
               <a
-                href='https://drive.google.com/uc?export=download&id=10jR9tKJ7f8-coObwLzbbHXjG_iX1hYcz'
+                href='https://drive.google.com/file/d/1Md33jlcj6N6sx0B9YB2Z_hPznrVIVIai/view?usp=drive_link'
                 target='_blank'
                 rel='noopener noreferrer'
                 download
