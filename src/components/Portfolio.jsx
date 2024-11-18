@@ -11,7 +11,7 @@ import Reveal from './Reveal';
 const projects = [
     {
       img: project1,
-      title: "Project #1",
+      title: "Recomendación de Hardware",
       description: "El mantenimiento de un pc debe ser periódicamente ya que la acumulación de polvo y partículas externas pueden generar cortos y daños irremediables a las máquinas. .",
       links: {
         site: "#",
@@ -20,7 +20,7 @@ const projects = [
     },
     {
       img: project2,
-      title: "Project #2",
+      title: "Recomendación Mantenimiento   ",
       description: "Del manteniendo de su software depende la funcionalidad de las aplicaciones y el rendimiento de su máquina, por esa razón el mantenimiento debe ser periódico, limpiar la basura acumulativa de archivos innecesarios.   ",
       links: {
         site: "#",
@@ -29,46 +29,21 @@ const projects = [
     },
     {
       img: project3,
-      title: "Project #3",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      title: "Recomendación de Software",
+      description: "Del manteniendo de su software depende la funcionalidad de las aplicaciones y el rendimiento de su máquina, por esa razón el mantenimiento debe ser periódico, limpiar la basura acumulativa de archivos innecesarios.   .",
       links: {
         site: "#",
         github: "#",
       },
     },
-    {
-      img: project4,
-      title: "Project #4",
-      description: "An e-commerce platform with various features.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project5,
-      title: "Project #5",
-      description: "A mobile-friendly application using React Native.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project6,
-      title: "Project #6",
-      description: "A data visualization project using D3.js and other libraries.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
+    
+    
   ]
 
 const Portfolio = () => {
   return (
     <div className='max-w-[1000px] mx-auto p-6 md:my-20' id="portfolio">
-        <h2 className='text-3xl font-bold text-gray-200 mb-8'>Portfolio</h2>
+        <h2 className='text-3xl font-bold text-gray-200 mb-8'>Portafolio</h2>
         {projects.map((project, index) => (
             <Reveal>
             <div key={index}
@@ -87,13 +62,9 @@ const Portfolio = () => {
                         <a href={project.links.site}
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
-                            View Site
+                            Contacto
                         </a>
-                        <a href={project.links.github}
-                            className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
-                                        transition duration-300'>
-                            <AiOutlineGithub/>
-                        </a>
+                        
 
                     </div>
 

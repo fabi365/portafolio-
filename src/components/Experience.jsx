@@ -4,31 +4,17 @@ import Reveal from './Reveal'
 
 const experiences = [
   {
-    company: 'First Company',
-    period: '2020 - Present',
-    description: 'Description of your experience in this company.',
+    company: 'Técnico en Sistemas',
+    period: 'Más de 10 Años de Experiencia',
+    description: 'En el mantenimiento de equipos de cómputo, en la instalación de redes, en la instalación de programas en general, en la configuración de sistemas operativos.  .',
   },
-  {
-    company: 'Second Company',
-    period: '2020 - Present',
-    description: 'Description of your experience in this company.',
-  },
-  {
-    company: 'Third Company',
-    period: '2020 - Present',
-    description: 'Description of your experience in this company.',
-  },
-  {
-    company: 'Fourth Company',
-    period: '2020 - Present',
-    description: 'Description of your experience in this company.',
-  },
+  
 ]
 
 const Experience = () => {
   return (
     <div className='p-8 max-w-[600px] mx-auto'>
-      <h1 className='text-4xl text-gray-200 font-bold text-center mb-12'>Experience</h1>
+      <h1 className='text-4xl text-gray-200 font-bold text-center mb-12'>Experiencia</h1>
       <motion.div
       className='space-y-8'
       initial="hidden"
